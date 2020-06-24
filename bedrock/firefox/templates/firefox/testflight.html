@@ -30,7 +30,7 @@
   heading_level=1) %}
   {% endcall %}
 
-  <aside class="mzp-l-content mzp-t-narrow">
+  <aside class="mzp-l-content mzp-t-content-sm">
     <form id="newsletter-form" class="mzp-c-newsletter-form" action="{{ url('newsletter.subscribe') }}" method="post" data-spinner-color="#fff">
       {{ newsletter_form.newsletters|safe }}
       {# test flight program is only available in english #}
@@ -96,7 +96,7 @@
     </div>
   </aside>
 
-  <section class="mzp-l-content mzp-t-narrow" id="terms-conditions">
+  <section class="mzp-l-content mzp-t-content-md" id="terms-conditions">
     <h4>{{ _('Terms and Conditions') }}</h4>
     <ol class="mzp-u-list-styled">
       <li>
