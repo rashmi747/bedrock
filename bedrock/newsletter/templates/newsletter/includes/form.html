@@ -9,7 +9,7 @@
     <div id="footer-email-errors">
       {{ form.non_field_errors()|safe }}
 
-      <ul class="errorlist">
+      <ul class="mzp-c-form-errors">
         {% if form.email.errors %}
           <li>{{ ftl('newsletter-form-please-enter-a-valid') }}</li>
         {% endif %}
@@ -25,7 +25,7 @@
     </div>
   {% else %}
     <div id="footer-email-errors" class="hidden">
-      <ul class="errorlist"></ul>
+      <ul class="mzp-c-form-errors"></ul>
     </div>
   {% endif %}
 
