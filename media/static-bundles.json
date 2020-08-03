@@ -128,6 +128,7 @@
     },
     {
       "files": [
+        "css/firefox/new/common/thanks-messaging.scss",
         "css/firefox/new/desktop/thanks.scss"
       ],
       "name": "firefox_desktop_download_thanks"
@@ -141,6 +142,7 @@
     },
     {
       "files": [
+        "css/firefox/new/common/thanks-messaging.scss",
         "css/firefox/new/trailhead/thanks.scss"
       ],
       "name": "firefox_new_thanks"
@@ -883,7 +885,8 @@
     },
     {
       "files": [
-        "js/firefox/new/trailhead/thanks.js"
+        "js/firefox/new/common/thanks.js",
+        "js/firefox/new/common/thanks-init.js"
       ],
       "name": "firefox_new_thanks"
     },
